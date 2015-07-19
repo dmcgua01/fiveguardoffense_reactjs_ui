@@ -2,10 +2,10 @@
   "name": "fiveguardoffense-reactjs-ui",
   "version": "0.1.0",
   "description": "ReactJS UI for Resume Site",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "watch": "watchify app.js -o public/js/bundle.js -v",
-    "browserify": "browserify app.js | uglifyjs > public/js/bundle.js",
+    "watch": "watchify index.js -o public/js/bundle.js -v",
+    "browserify": "browserify index.js | uglifyjs > public/js/bundle.js",
     "build": "npm run browserify ",
     "start": "npm install"
   },
