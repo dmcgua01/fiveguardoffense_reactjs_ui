@@ -1,0 +1,22 @@
+{
+  "name": "Dan McGuane",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dmcgua01/fiveguardoffense_reactjs_ui",
+  "authors": [
+    "Dan McGuane <dmcguane88@gmail.com>"
+  ],
+  "description": "ReactJS UI for Resume site",
+  "main": "server.js",
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.x",
+    "jquery": "~2.1.x"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

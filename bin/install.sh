@@ -13,3 +13,7 @@ if [[ -a /etc/redhat-release ]]; then
   #TODO: yum install any necessary packages
   echo centos
 fi
+
+#install global npm packages
+npm install -g browserify
+npm install -g bower
